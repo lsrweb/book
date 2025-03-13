@@ -4,7 +4,6 @@ public class Book {
     private String author;
     private double price;
 
-
     public Book(String id, String title, String author, double price) {
         this.id = id;
         this.title = title;
