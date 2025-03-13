@@ -3,19 +3,15 @@ public class Book {
     private String title;
     private String author;
     private double price;
-
     public Book(String id, String title, String author, double price) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.price = price;
     }
-
-    // Getters and setters
     public String getId() {
         return id;  
     }
-
     public void setId(String id) {
         this.id = id;
     }
